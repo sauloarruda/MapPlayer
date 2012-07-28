@@ -14,7 +14,15 @@
 		9F490FE215C46AEE00E41327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F490FE115C46AEE00E41327 /* main.m */; };
 		9F490FE615C46AEE00E41327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F490FE515C46AEE00E41327 /* AppDelegate.m */; };
 		9F490FE915C46AEE00E41327 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F490FE715C46AEE00E41327 /* MainStoryboard.storyboard */; };
-		9F490FEC15C46AEE00E41327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F490FEB15C46AEE00E41327 /* ViewController.m */; };
+		9F490FEC15C46AEE00E41327 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F490FEB15C46AEE00E41327 /* MapViewController.m */; };
+		9F490FF315C46B8800E41327 /* 088-Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F490FF215C46B8800E41327 /* 088-Map@2x.png */; };
+		9F490FF515C46B9600E41327 /* 088-Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F490FF415C46B9600E41327 /* 088-Map.png */; };
+		9F490FF815C46BB700E41327 /* 111-MP3Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F490FF615C46BB700E41327 /* 111-MP3Player.png */; };
+		9F490FF915C46BB700E41327 /* 111-MP3Player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F490FF715C46BB700E41327 /* 111-MP3Player@2x.png */; };
+		9F490FFB15C46C0100E41327 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F490FFA15C46C0100E41327 /* MapKit.framework */; };
+		9F490FFD15C46C0900E41327 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F490FFC15C46C0900E41327 /* CoreLocation.framework */; };
+		9F490FFF15C4763C00E41327 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F490FFE15C4763C00E41327 /* AVFoundation.framework */; };
+		9F49100215C4765A00E41327 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F49100115C4765A00E41327 /* PlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +30,24 @@
 		9F490FD515C46AEE00E41327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F490FD715C46AEE00E41327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F490FD915C46AEE00E41327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F490FDD15C46AEE00E41327 /* MapPlayer-Info.plist */ = {isa = PBXFileReference; path = "MapPlayer-Info.plist"; sourceTree = "<group>"; };
+		9F490FDD15C46AEE00E41327 /* MapPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapPlayer-Info.plist"; sourceTree = "<group>"; };
 		9F490FDF15C46AEE00E41327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F490FE115C46AEE00E41327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F490FE315C46AEE00E41327 /* MapPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "MapPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		9F490FE415C46AEE00E41327 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F490FE315C46AEE00E41327 /* MapPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		9F490FE415C46AEE00E41327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F490FE515C46AEE00E41327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F490FE815C46AEE00E41327 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9F490FEA15C46AEE00E41327 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		9F490FEB15C46AEE00E41327 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F490FEA15C46AEE00E41327 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9F490FEB15C46AEE00E41327 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9F490FF215C46B8800E41327 /* 088-Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "088-Map@2x.png"; sourceTree = "<group>"; };
+		9F490FF415C46B9600E41327 /* 088-Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "088-Map.png"; sourceTree = "<group>"; };
+		9F490FF615C46BB700E41327 /* 111-MP3Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-MP3Player.png"; sourceTree = "<group>"; };
+		9F490FF715C46BB700E41327 /* 111-MP3Player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-MP3Player@2x.png"; sourceTree = "<group>"; };
+		9F490FFA15C46C0100E41327 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9F490FFC15C46C0900E41327 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F490FFE15C4763C00E41327 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F49100015C4765A00E41327 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		9F49100115C4765A00E41327 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F490FFF15C4763C00E41327 /* AVFoundation.framework in Frameworks */,
+				9F490FFD15C46C0900E41327 /* CoreLocation.framework in Frameworks */,
+				9F490FFB15C46C0100E41327 /* MapKit.framework in Frameworks */,
 				9F490FD615C46AEE00E41327 /* UIKit.framework in Frameworks */,
 				9F490FD815C46AEE00E41327 /* Foundation.framework in Frameworks */,
 				9F490FDA15C46AEE00E41327 /* CoreGraphics.framework in Frameworks */,
@@ -67,9 +87,12 @@
 		9F490FD415C46AEE00E41327 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F490FD515C46AEE00E41327 /* UIKit.framework */,
-				9F490FD715C46AEE00E41327 /* Foundation.framework */,
+				9F490FFE15C4763C00E41327 /* AVFoundation.framework */,
 				9F490FD915C46AEE00E41327 /* CoreGraphics.framework */,
+				9F490FFC15C46C0900E41327 /* CoreLocation.framework */,
+				9F490FD715C46AEE00E41327 /* Foundation.framework */,
+				9F490FFA15C46C0100E41327 /* MapKit.framework */,
+				9F490FD515C46AEE00E41327 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,8 +103,11 @@
 				9F490FE415C46AEE00E41327 /* AppDelegate.h */,
 				9F490FE515C46AEE00E41327 /* AppDelegate.m */,
 				9F490FE715C46AEE00E41327 /* MainStoryboard.storyboard */,
-				9F490FEA15C46AEE00E41327 /* ViewController.h */,
-				9F490FEB15C46AEE00E41327 /* ViewController.m */,
+				9F490FEA15C46AEE00E41327 /* MapViewController.h */,
+				9F490FEB15C46AEE00E41327 /* MapViewController.m */,
+				9F49100015C4765A00E41327 /* PlayerViewController.h */,
+				9F49100115C4765A00E41327 /* PlayerViewController.m */,
+				9F49100715C47D2900E41327 /* Resources */,
 				9F490FDC15C46AEE00E41327 /* Supporting Files */,
 			);
 			path = MapPlayer;
@@ -96,6 +122,17 @@
 				9F490FE315C46AEE00E41327 /* MapPlayer-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F49100715C47D2900E41327 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F490FF415C46B9600E41327 /* 088-Map.png */,
+				9F490FF215C46B8800E41327 /* 088-Map@2x.png */,
+				9F490FF615C46BB700E41327 /* 111-MP3Player.png */,
+				9F490FF715C46BB700E41327 /* 111-MP3Player@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +188,10 @@
 			files = (
 				9F490FE015C46AEE00E41327 /* InfoPlist.strings in Resources */,
 				9F490FE915C46AEE00E41327 /* MainStoryboard.storyboard in Resources */,
+				9F490FF315C46B8800E41327 /* 088-Map@2x.png in Resources */,
+				9F490FF515C46B9600E41327 /* 088-Map.png in Resources */,
+				9F490FF815C46BB700E41327 /* 111-MP3Player.png in Resources */,
+				9F490FF915C46BB700E41327 /* 111-MP3Player@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +204,8 @@
 			files = (
 				9F490FE215C46AEE00E41327 /* main.m in Sources */,
 				9F490FE615C46AEE00E41327 /* AppDelegate.m in Sources */,
-				9F490FEC15C46AEE00E41327 /* ViewController.m in Sources */,
+				9F490FEC15C46AEE00E41327 /* MapViewController.m in Sources */,
+				9F49100215C4765A00E41327 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapPlayer/MapPlayer-Prefix.pch";
 				INFOPLIST_FILE = "MapPlayer/MapPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapPlayer/MapPlayer-Prefix.pch";
 				INFOPLIST_FILE = "MapPlayer/MapPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

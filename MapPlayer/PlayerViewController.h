@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlayerViewController.h
 //  MapPlayer
 //
 //  Created by Saulo Arruda Coelho on 7/28/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PlayerViewController : UIViewController
 
 @end
